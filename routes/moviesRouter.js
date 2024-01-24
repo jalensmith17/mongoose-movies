@@ -9,7 +9,7 @@ router.get('/', movieCtrl.index)
 // GET
 router.get('/:id', movieCtrl.show)
 // POST
-router.get('/:movieId/performers/:performerId', movieCtrl.addPerformer)
+router.post('/:movieId/performers/:performerId', movieCtrl.addPerformer)
 
 
 module.exports = router
