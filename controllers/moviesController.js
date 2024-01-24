@@ -1,5 +1,5 @@
 const Movie = require('../models/movie')
-const Performer = require('/../models/performer')
+const Performer = require('../models/performer')
 
 /*
 

@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const performerCtrl = require('.../controllers/performersController')
+const performerCtrl = require('../controllers/performersController')
 
 // GET
 router.get('/', performerCtrl.index)
